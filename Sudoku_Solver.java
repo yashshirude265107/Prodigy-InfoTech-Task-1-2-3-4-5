@@ -1,3 +1,7 @@
+/* Sudoku Solver in Java
+Problem Statement:
+Develop a Sudoku Solver that takes a partially filled 9x9 grid and uses a backtracking algorithm to fill in the missing cells. The program will check for valid placements and attempt to solve the puzzle. If a solution exists, it will display the completed Sudoku grid; otherwise, it will indicate no solution exists. */
+
 class Task4 {
 
     private static final int GRID_SIZE = 9;
