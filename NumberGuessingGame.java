@@ -1,7 +1,11 @@
+// A simple Guess the Number game built in Java, where the user tries to guess a randomly generated number between 1 and 100. The game provides hints after each guess and keeps track of the number of attempts.
+
+/* Guess the Number Game in Java */
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task2 {
+public class NumberGuessingGame {
     public static void main(String[] args) {
         // Generate a random number between 1 and 100
         Random random = new Random();
