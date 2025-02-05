@@ -1,3 +1,10 @@
+/* A Contact Management System built in Java for managing personal contact information such as names, phone numbers, and email addresses. The program allows users to:
+Add new contacts
+View all stored contacts
+Delete contacts
+Save and load contacts from a file 
+Contact Management System in Java   */
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -19,7 +26,7 @@ class Contact {
     }
 }
 
-public class Task3 {
+public class Contact_Management_System {
     private static ArrayList<Contact> contacts = new ArrayList<>(); // Added semicolon here
     private static final String FILE_NAME = "contacts.txt";
 
