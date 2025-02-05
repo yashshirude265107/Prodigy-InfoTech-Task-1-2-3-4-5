@@ -1,3 +1,7 @@
+//Problem Statement:
+// This program aims to scrape product data (name, price, and rating) from an e-commerce website and store it in a CSV file for further analysis or processing. By using Jsoup, the program connects to the website, extracts the required information, and writes it to a products.csv file.
+
+// E-Commerce Product Data Scraper and Exporter
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -5,7 +9,7 @@ import org.jsoup.select.Elements;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Task5 {
+public class EcommerceDataScraper {
 
     public static void main(String[] args) {
         
