@@ -1,6 +1,8 @@
+// Write a Java program that takes a temperature value and its original unit (Celsius, Fahrenheit, or Kelvin) as input from the user. The program should then convert the temperature into all three units and display the results.
+
 import java.util.Scanner;
 
-public class Task1 {
+public class Temperature_Converter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
